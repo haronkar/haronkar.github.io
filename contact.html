@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Haronkar Singh</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="cursor.js" defer></script>
+  </head>
+  <body>
+    <div class="cursor-container">
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+      <div class="cursor"></div>
+    </div>
+    <header>
+      <nav>
+        <a class="linkItem" href="#contact">Connect</a>
+        <div class="logo nowrap">
+          <div>
+            <a href="index.html"><span>HARONKAR</span><span> SINGH</span></a>
+          </div>
+        </div>
+        <a class="linkItem" href="about.html">About</a>
+      </nav>
+    </header>
+    <main class="contact">
+      <div class="contact-info">
+        <span>Contact</span>
+        <h1>Let's get</h1>
+        <h1>in touch</h1>
+        <a
+          class="email"
+          id="email"
+          href="#"
+          onclick="copyText()"
+          data-title="click to copy"
+          >haronkar_singh@yahoo.in</a
+        >
+      </div>
+      <div class="form-container">
+        <p></p>
+        <form action="#">
+          <div class="form-row">
+            <input type="text" placeholder="What should I call you?" required />
+            <label for="name">What's your name?</label>
+            <h2>01</h2>
+          </div>
+          <div class="form-row">
+            <input
+              type="text"
+              placeholder="How should I contact you?"
+              required />
+            <label for="email">What's your email?</label>
+            <h2>02</h2>
+          </div>
+          <div class="form-row">
+            <textarea
+              type="textarea"
+              placeholder="Hello Haronkar, can you help me with ..."
+              required></textarea>
+            <label for="message">Your message</label>
+            <h2>03</h2>
+          </div>
+          <div class="submit-btn">
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer style="margin: 0">
+      <div class="footer_container">
+        <div class="footer_title">2022 &copy; Haronkar Singh</div>
+        <div class="footer_social">
+          <a href="https://twitter.com/haronkarsingh" target="_blank"
+            >Twitter</a
+          >
+          <a href="https://linkedin.com/in/haronkarsingh" target="_blank">
+            LinkedIn
+          </a>
+          <a href="https://github.com/haronkar" target="_blank">Github </a>
+        </div>
+        <div class="footer_team">
+          Developed and Design<br />
+          Haronkar Singh
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
